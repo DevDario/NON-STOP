@@ -923,3 +923,11 @@ footer .link-list{
 .developers-main-section .developers-text .medium-text{
     color:var(--light);
 }
+
+.developers-text .button {
+    border:1px solid transparent;
+    border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    border-image-slice:1;
+    background-color: #272739;
+    color:var(--light);
+}
