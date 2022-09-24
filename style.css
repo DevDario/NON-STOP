@@ -888,3 +888,23 @@ footer .link-list{
 .developers-body{
     background-color: #17171E;
 }
+
+.developers-title{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+    margin:3rem auto;
+}
+
+.developers-title h1 {
+    color:var(--light);
+    font-family:'Raleway-Medium';
+    background:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align:center;
+}
