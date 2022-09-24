@@ -894,12 +894,12 @@ footer .link-list{
     justify-content: center;
     align-items:center;
     align-content:center;
-    margin:3rem auto;
+    margin:3rem auto 4rem auto;
 }
 
 .developers-title h1 {
     color:var(--light);
-    font-family:'Raleway-Medium';
+    font-family:'Raleway-Bold';
     background:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
     -webkit-background-clip: text;
     -moz-background-clip: text;
