@@ -884,3 +884,7 @@ footer .link-list{
     flex-direction:row-reverse;
     justify-content: space-between;
 }
+
+.developers-body{
+    background-color: #17171E;
+}
