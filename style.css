@@ -937,3 +937,11 @@ footer .link-list{
     height: 40%;
     transform:translateY(56px);
 }
+
+/*ADVENTURE SECTION*/
+.adventure-section{
+    padding:var(--section-padding);
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+}
