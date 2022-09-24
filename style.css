@@ -945,3 +945,21 @@ footer .link-list{
     flex-direction:row-reverse;
     justify-content:space-between;
 }
+
+.adevnture-section .adventure-text .medium-text{
+    color:var(--light);
+}
+
+.adventure-text .button {
+    border:1px solid transparent;
+    border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    border-image-slice:1;
+    background-color: #272739;
+    color:var(--light);
+}
+
+.adventure-section img{
+    width: 40%;
+    height: 40%;
+    transform:translateY(56px);
+}
