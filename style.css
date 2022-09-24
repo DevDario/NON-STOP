@@ -908,3 +908,18 @@ footer .link-list{
     -moz-text-fill-color: transparent;
     text-align:center;
 }
+
+.developers-main-section .developers-text h1{
+    color:var(--light);
+    background:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align:left;
+}
+
+.developers-main-section .developers-text .medium-text{
+    color:var(--light);
+}
