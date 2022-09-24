@@ -930,6 +930,14 @@ footer .link-list{
     border-image-slice:1;
     background-color: #272739;
     color:var(--light);
+    padding:20px 18px;
+    display:flex;
+    align-items:center;
+    align-content:center;
+}
+
+.developers-text a{
+    text-decoration: none;
 }
 
 .developers-main-section img{
@@ -946,7 +954,7 @@ footer .link-list{
     justify-content:space-between;
 }
 
-.adevnture-section .adventure-text .medium-text{
+.adventure-section .adventure-text .medium-text{
     color:var(--light);
 }
 
@@ -956,6 +964,14 @@ footer .link-list{
     border-image-slice:1;
     background-color: #272739;
     color:var(--light);
+    padding:20px 18px;
+    width: 200px;
+    display:flex;
+    align-items:center;
+}
+
+.adventure-text a{
+    text-decoration: none;
 }
 
 .adventure-section img{
