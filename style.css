@@ -990,3 +990,17 @@ footer .link-list{
     height: 40%;
     transform:translateY(56px);
 }
+
+.back-home button{
+    border:1px solid transparent;
+    border-image:linear-gradient(135deg,#FF7824,#EE50E3,#EF1EA9,#E37F1B);
+    border-image-slice:1;
+    background-color: #272739;
+    color:var(--light);
+    padding:20px 18px;
+    width: 200px;
+    display:flex;
+    align-items:center;   
+    align-content: center;
+    justify-content: center;
+}
