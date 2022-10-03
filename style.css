@@ -1006,3 +1006,33 @@ footer .link-list{
 }
 
 /*MOBILE VERSION*/
+@media screen and (max-width:834px) {
+    /*GLOBAL*/
+    .section{
+        flex-direction:column;
+        justify-content:center;
+        gap:35px;
+        margin:0 auto;
+    }
+
+    .title h1{
+        font-size: 1.50rem;
+    }
+
+    .section .bg-text .large-text{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .section .bg-text button{
+        display:block;
+        margin:0 auto;
+
+    }
+
+    .section .bg-text .medium-text{
+        text-align: center;
+    }
+
+    /*-----------*/
+}
