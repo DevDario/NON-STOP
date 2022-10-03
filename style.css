@@ -1016,12 +1016,16 @@ footer .link-list{
     }
 
     .title h1{
-        font-size: 1.50rem;
+        font-size: 1.30rem;
+    }
+
+    .title{
+        margin:2rem auto;
     }
 
     .section .bg-text .large-text{
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.50rem;
     }
 
     .section .bg-text button{
@@ -1042,6 +1046,7 @@ footer .link-list{
         border:none;
         top:0;
         position:fixed;
+        z-index: 1;
         box-shadow: 0px 2px 4px rgba(100,100,100,0.1);
     }
 
@@ -1051,5 +1056,32 @@ footer .link-list{
 
     .nav-section .nav-bar,button{
         display:none;
+    }
+
+    /*HEADER*/
+
+    .header-section .header-illustration{
+        display: none;
+    }
+
+    /*TEACHERS SECTION*/
+    .teachers-photos {
+        float: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        margin:0 auto;
+    }
+    
+    .teachers-photos img {
+        width: 100px;
+        height: 100px;
+        cursor:help;
+    }
+
+    /*BUILD YOUR CAREER*/
+    .build-career-section .build-career-illustration{
+        display:flex;
+        justify-content: center;
     }
 }
