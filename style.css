@@ -1171,3 +1171,43 @@ footer .link-list{
     
 
 }
+
+@media screen and (max-width:768px) {
+    .title h1{
+        font-size: normal;
+    }
+
+    .title{
+        margin:2rem auto;
+    }
+
+    .section .bg-text .large-text{
+        text-align: center;
+        font-size: 1.60rem;
+    }
+
+    /*HEADER*/
+    .section .header-text .large-text{
+        font-size: 2.50rem;
+    }
+
+    /*BLUE BACKGROUND*/
+    .blue-background .bg-text h1{
+        font-size: 1.60rem;
+    }
+
+    .section .bg-text .medium-text{
+        font-size: 13px;
+        text-align:center;
+    }
+
+    /*TEACHERS SECTION*/
+    .teachers-photos {
+        gap: 10px;
+    }
+    
+    .teachers-photos img {
+        width: 85px;
+        height: 85px;
+    }
+}
