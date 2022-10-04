@@ -1139,4 +1139,35 @@ footer .link-list{
     .courses-section .side-image img{
         width: 170%;
     }
+
+    /*FOOTER*/
+    footer{
+        padding:30px;
+        margin-top:5rem;
+    }
+    
+    footer .non-stop-logo h2{
+        color:var(--main-blue);
+    }
+    
+    footer .logo h1{
+        color:var(--light);
+        font-size:20px;
+    }
+
+    footer .link-list{
+        flex-direction:column;
+        justify-content: space-around;
+        gap:10px;
+    }
+    
+    .external ul li{
+        list-style:none;
+        display:flex;
+        flex-direction:row;
+        gap:15px;
+        color:var(--light);
+    }
+    
+
 }
