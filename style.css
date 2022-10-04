@@ -1015,6 +1015,10 @@ footer .link-list{
         margin:0 auto;
     }
 
+    .circle-box p{
+        display:none;
+    }
+
     .title h1{
         font-size: 1.30rem;
     }
@@ -1175,6 +1179,9 @@ footer .link-list{
 @media screen and (max-width:768px) {
     .title h1{
         font-size: normal;
+    }
+    .circle-box p{
+        display:none;
     }
 
     .title{
