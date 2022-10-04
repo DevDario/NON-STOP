@@ -60,6 +60,70 @@
 
 /*----*/
 
+.mobile-menu,.menu-icon{
+    display:none;
+}
+
+/*GLOBAL*/
+.mobile-menu{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:var(--light-blue);
+    background-color:rgba(89, 172, 255, 0.792);
+    backdrop-filter: blur(1px);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu-icons{
+    width: 44px;
+    height: 44px;
+    cursor:pointer;
+}
+
+.mobile-menu .menu-options{
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mobile-menu .menu-options ul{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin:0 auto;
+    text-align:center;
+    color:var(--light);
+    gap:50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mobile-menu .menu-options ul a li{
+    cursor:pointer;
+    color:var(--light);
+}
+
+.mobile-menu .menu-options ul a{
+    text-decoration:none;
+    color:var(--main-blue);
+}
+/*---*/
+
+
+.mobile-menu .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+/*---*/
+
 
 /*NAV SECTION*/
 .nav-section {
@@ -1007,7 +1071,16 @@ footer .link-list{
 
 /*MOBILE VERSION*/
 @media screen and (max-width:834px) {
+
+    .mobile-menu,.menu-icon{
+        display:block;
+    }
     /*GLOBAL*/
+
+    .nav-section .non-stop-logo {
+    transform: rotate(-3deg);
+}
+
     .section{
         flex-direction:column;
         justify-content:center;
@@ -1177,6 +1250,9 @@ footer .link-list{
 }
 
 @media screen and (max-width:768px) {
+    .mobile-menu,.menu-icon{
+        display:block;
+    }
     .title h1{
         font-size: normal;
     }
@@ -1217,4 +1293,17 @@ footer .link-list{
         width: 85px;
         height: 85px;
     }
+}
+
+/*HIGHER COMPUTER SCREENS*/
+@media screen and (max-width:1920px){
+    .nav-section .nav-button {
+        font-size: 18px;
+        transform: translateX(250%);
+    }
+
+    .header-illustration .illustration {
+        transform: translate(150%, -150px);
+    }
+
 }

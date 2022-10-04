@@ -115,5 +115,14 @@ SafeElement.addEventListener('mouseover',()=>{
     DisplayInfoText.innerHTML="any personal data or information about you"+"<br>"+" is very well proctected we treat them like it was ours"+"<br>"+"for you to get a better and safest experiece in our community"
 });
 
+//MOBILE MENU
+function openNav() {
+    document.getElementById("mobile-menu").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("mobile-menu").style.width = "0%";
+  }
+
 //SCROLL REVEAL
 ScrollReveal().reveal('.section',{interval:2000},{reset:true});
