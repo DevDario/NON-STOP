@@ -1231,6 +1231,25 @@ footer .link-list{
     margin-top: 20px;
 }
 
+/*DEVELOPERS MOBILE*/
+.developers-title h1{
+    font-size: 37px;
+    margin:30px auto;
+}
+
+.developers-main-section .illustration,
+.adventure-section .illustration{
+    margin:0 auto;
+}
+
+.developers-text a .text-button,.adventure-text a .text-button{
+    display:flex;
+    align-items:center;
+    align-content:center;
+    justify-content: center;
+}
+
+
     /*FOOTER*/
     footer{
         padding:30px;
@@ -1323,6 +1342,25 @@ footer .link-list{
     margin:0 auto;
     width: 58%;
     margin-top: 20px;
+}
+
+/*DEVELOPERS MOBILE*/
+.developers-title h1{
+    font-size: 32px;
+    margin:20px auto;
+}
+
+.developers-main-section .illustration,
+.adventure-section .illustration{
+    margin:0 auto;
+    width: 70%;
+}
+
+.developers-text a .text-button,.adventure-text a .text-button{
+    display:flex;
+    align-items:center;
+    align-content:center;
+    justify-content: center;
 }
 
 }
