@@ -1079,6 +1079,7 @@ footer .link-list{
 
     .nav-section .non-stop-logo {
     transform: rotate(-3deg);
+    margin-left:-305px;
 }
 
     .section{
@@ -1217,6 +1218,19 @@ footer .link-list{
         width: 170%;
     }
 
+    
+/*CERTIFICATES MOBILE*/
+.certificates-section .certificates-text{
+    margin-top: 50px;
+}
+
+
+.certificates-section .illustration{
+    margin:0 auto;
+    width: 58%;
+    margin-top: 20px;
+}
+
     /*FOOTER*/
     footer{
         padding:30px;
@@ -1293,6 +1307,20 @@ footer .link-list{
         width: 85px;
         height: 85px;
     }
+
+    
+/*CERTIFICATES MOBILE*/
+.certificates-section .certificates-text{
+    margin-top: 50px;
+}
+
+
+.certificates-section .illustration{
+    margin:0 auto;
+    width: 58%;
+    margin-top: 20px;
+}
+
 }
 
 /*HIGHER COMPUTER SCREENS*/
