@@ -23,7 +23,7 @@
     
     <!--NAV-->
 
-    <section class="nav-section section">
+    <section class="nav-section">
         <div class="logo">
            <div class="non-stop-logo">
                <h2>NON-STOP</h2>
@@ -33,7 +33,7 @@
         <!--MENU OPTIONS-->
         <nav class="nav-bar">
             <ul class="navbar-list-items">
-                <a href="index.html">
+                <a href="index.html#home">
                     <li class="list-item">HOME</li>
                 </a>
                 <a href="certificates.html" rel="noopener noreferrer">
@@ -52,6 +52,39 @@
         <button class="login-button nav-button button">
             <a href="login/login.html" target="_blank">LOGIN</a>
         </button>
+
+        <!--MOBILE MENU-->
+        <div class="mobile-menu" id="mobile-menu">
+
+           <div class="close-btn">
+               <img class="menu-icons" id="close-menu" src="assets/icons-png/mobile-menu-icons/close-menu-icon.png" alt="CLOSE MENU" onclick="closeNav()">
+           </div>
+
+           <div class="menu-options">
+               <ul>
+                   <a href="index.html#home">
+                       <li>HOME</li>
+                   </a>
+                   <a href="certificates.html">
+                       <li>CERTIFICATES</li>
+                   </a>
+                   <a href="courses.html">
+                       <li>COURSES</li>
+                   </a>
+                   <a href="developers.html">
+                       <li>DEVELOPERS</li>
+                   </a>
+                   <a href="https://nonstop-login.vercel.app" rel="noopener noreferrer">
+                       <li>LOGIN</li>
+                   </a>
+               </ul>
+           </div>
+
+        </div>
+        <div class="menu-icon">
+           <img class="menu-icons" id="open-menu" src="assets/icons-png/mobile-menu-icons/menu-icon.png" alt="OPEN MENU" onclick="openNav()">
+        </div>
+
    </section>
 
    <!--COURSES CARDS-->
@@ -248,6 +281,9 @@
 
     </div>
    </section>
+
+   <!--SCRIPT-->
+   <script src="main.js"></script>
     
 </body>
 </html>
