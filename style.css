@@ -1079,7 +1079,7 @@ footer .link-list{
 
     .nav-section .non-stop-logo {
     transform: rotate(-3deg);
-    margin-left:-305px;
+    margin-left:-280px;
 }
 
     .section{
@@ -1263,9 +1263,13 @@ footer .link-list{
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:428px) {
     .mobile-menu,.menu-icon{
         display:block;
+    }
+
+    .nav-section .non-stop-logo {
+        margin-left:-30px;
     }
     .title h1{
         font-size: normal;
