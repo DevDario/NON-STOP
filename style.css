@@ -1077,6 +1077,10 @@ footer .link-list{
     }
     /*GLOBAL*/
 
+    .link-icon{
+        display:none;
+    }
+
     .nav-section .non-stop-logo {
     transform: rotate(-3deg);
     margin-left:-280px;
@@ -1285,6 +1289,10 @@ footer .link-list{
 @media screen and (max-width:428px) {
     .mobile-menu,.menu-icon{
         display:block;
+    }
+
+    .link-icon{
+        display:none;
     }
 
     .nav-section .non-stop-logo {
