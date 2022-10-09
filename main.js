@@ -12,9 +12,6 @@ var TeacherConnor = document.getElementById('connor');
 var DisplayTeacherName = document.getElementById('teacher-name');
 var DisplayTeacherArea = document.getElementById('teacher-area');
 var TeacherButton = document.getElementById('know-teacher');
-var DevTitle = document.getElementById('dev-title').innerText="<Developers Zone/>";
-var AdventureTitle = document.getElementById('adventure-title').innerText="<friends all over the globe/>"
-
 
 //OCTAVIA
 TeacherBratton.addEventListener('mouseover',()=>{
