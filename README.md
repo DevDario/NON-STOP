@@ -9,7 +9,7 @@ Cada detalhe, desde ao **tipo de fonte**, até a escolha das **cores** foi muito
 ## Tecnologias
 Pensei em fazer o projeto todo com **SASS**, ao invés de **CSS**, mas devido à falta da extensão **"Watch SASS"** no meu vscode, decidi fazer com **CSS** mesmo, assim já aproveito e entendo o processo que o próprio **SASS** realiza para organizar as **classes** e outros elementos.
 
-Você poderá notar a existência do **SASS** na página de login, por que, ela foi um **projeto isolado**, que faz parte do meu **repositório de Formulários HTML**\([Ver repositório](https://github.com/DevDario/HTMLFORMS)\)
+Você poderá notar a existência do **SASS** na página de login, por que, ela foi um **projeto isolado**, que faz parte do meu **repositório de Formulários HTML**\([Ver repositório](https://github.com/DevDario/HTML-FORMS)\)
 
 "LINGUAGEM" | FUNÇÃO 
 :---:       |:---:
