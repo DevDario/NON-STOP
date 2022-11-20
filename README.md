@@ -42,6 +42,15 @@ Você quer ver o design que originou essa obra prima ? 🤩
 - Meu Portfólio [devdario](https://devdario.vercel.app)
 - Projeto CODELAB [CODELAB](https://codelab-devdario.vercel.app)
 
-#
+## Status
+
+<div>
+<img src="https://img.shields.io/github/license/DevDario/NON-STOP.svg">
+<img src="https://img.shields.io/github/downloads/DevDario/NON-STOP/total.svg">
+<img src="https://img.shields.io/github/forks/DevDario/NON-STOP.svg">
+<img src="https://img.shields.io/github/watchers/DevDario/NON-STOP.svg">
+<img src="https://img.shields.io/github/stars/DevDario/NON-STOP.svg">
+<img src="https://img.shields.io/github/issues/DevDario/NON-STOP.svg">
+</div>
 
 # Vemo-nos no próximo projeto !
