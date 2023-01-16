@@ -122,4 +122,4 @@ function openNav() {
   }
 
 //SCROLL REVEAL
-ScrollReveal().reveal('.section',{interval:2000},{reset:true});
+ScrollReveal().reveal('.section',{interval:600},{reset:true});
