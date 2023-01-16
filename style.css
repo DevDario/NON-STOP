@@ -48,7 +48,7 @@
 }
 /*SCROLL BAR CUSTOMIZATION*/
     body::-webkit-scrollbar{
-        background-color: rgb(4, 70, 136);
+        background-color: rgb(255,255,255);
         width: 9px;
     }
 
